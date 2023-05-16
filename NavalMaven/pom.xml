@@ -39,6 +39,7 @@
 		</dependency>
 		
 		
+		
 
 <dependency>
   <groupId>org.apache.maven.plugins</groupId>
@@ -46,6 +47,14 @@
   <version>3.11.0</version>
   <type>maven-plugin</type>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>3.1.0</version>
+</dependency>
+
 
 		
 		
@@ -59,7 +68,7 @@
 				<version>3.0.0-M9</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng2.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
